@@ -1,0 +1,111 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+.container{
+  display: flex;
+justify-items: center;
+}
+.columns { 
+  margin:4px;
+  text-align: center;
+
+
+}
+.port {
+  margin:8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+article div {
+  text-align: center;
+  width: 100%;
+  margin-right: auto;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+
+/* Links */
+a:link {
+  color: #d62828;
+  padding:10px;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav {
+direction: flex;
+padding: 80px;
+margin: 4px;
+
+
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+header {
+height:10vh;
+padding:2em;
+  border-right: 0px solid #ccc;
+  font-size: 1.2em; 
+}
+
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
